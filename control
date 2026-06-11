@@ -1,0 +1,9 @@
+Package: yallalite
+Name: YallaLite
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: إرث الشيباني
+Author: إرث الشيباني
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
