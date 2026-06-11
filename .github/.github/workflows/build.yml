@@ -13,12 +13,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Theos
-        uses: waruhachi/theos-action@v2
-
-      - name: Build
         run: |
-          make clean
-          make package THEOS_PACKAGE_SCHEME=rootless
+          git clone --recursive https://github.com/theos/theos.git $HOME/theos
+       - name: Build
+        run: |
+        
+          export THEOS=$HOME/theos
+           make clean
+           make package THEOS_PACKAGE_SCHEME=rootless
 
       - name: Upload packages
         uses: actions/upload-artifact@v4
