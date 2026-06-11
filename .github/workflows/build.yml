@@ -13,8 +13,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Theos
-  run: |
-    git clone --recursive https://github.com/theos/theos.git $HOME/theos
+        run: |
+          git clone --recursive https://github.com/theos/theos.git $HOME/theos
 
       - name: Build
         run: |
