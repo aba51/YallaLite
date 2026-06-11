@@ -1,0 +1,29 @@
+name: Build Dylib
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Theos
+        uses: waruhachi/theos-action@v2
+
+      - name: Build
+        run: |
+          make clean
+          make package THEOS_PACKAGE_SCHEME=rootless
+
+      - name: Upload packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: dylib-deb
+          path: |
+            .theos/obj/**/*.dylib
+            packages/*.deb
