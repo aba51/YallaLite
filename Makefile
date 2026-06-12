@@ -1,3 +1,7 @@
+YallaLite_EXTRA_FRAMEWORKS = FLEX4Framework
+YallaLite_FRAMEWORKS = UIKit
+YallaLite_LDFLAGS = -Fflexlist/Library/Frameworks
+
 THEOS ?= /Users/runner/theos
 
 ARCHS = arm64 arm64e
