@@ -1,10 +1,8 @@
 YallaLite_EXTRA_FRAMEWORKS = FLEX4Framework
 YallaLite_FRAMEWORKS = UIKit
-ARCHS = arm64 arm64e
+YallaLite_LDFLAGS = -F$(CURDIR)/flexlist/Library/Frameworks
 
-THEOS ?= /Users/runner/theos
-
-ARCHS = arm64 arm64e
+ARCHS = arm64
 
 TARGET := iphone:clang:latest:14.0
 
