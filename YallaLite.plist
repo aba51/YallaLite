@@ -2,7 +2,7 @@
 	Filter = {
 		Bundles = (
 			"com.apple.springboard",
-			"com.yalla.yallalite",
+			"com.alasd-pro0",
 		);
 	};
 }
