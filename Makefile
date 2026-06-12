@@ -12,7 +12,7 @@ TWEAK_NAME = YallaLite
 YallaLite_FILES = Tweak.x
 YallaLite_CFLAGS = -fobjc-arc
 YallaLite_FRAMEWORKS = UIKit
-YallaLite_EXTRA_FRAMEWORKS = FLEX4Framework
+YallaLite_EXTRA_FRAMEWORKS = FLEX4F3amework
 YallaLite_LDFLAGS = -F$(CURDIR)/flexlist/Library/Frameworks
 
 include $(THEOS_MAKE_PATH)/tweak.mk
