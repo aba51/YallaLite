@@ -53,6 +53,6 @@ static void ToggleMicCXX() {
             ToggleMicCXX();
         }] forControlEvents:UIControlEventTouchUpInside];
 
-        [window addSubview:micButton];
-    });
+      [window addSubview:micButton];
+});
 }
