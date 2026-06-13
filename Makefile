@@ -3,7 +3,7 @@ THEOS ?= /Users/runner/theos
 ARCHS = arm64
 TARGET := iphone:clang:latest:14.0
 
-INSTALL_TARGET_PROCESSES = SpringBoard
+INSTALL_TARGET_PROCESSES = SuperPro
 
 include $(THEOS)/makefiles/common.mk
 
