@@ -1,0 +1,51 @@
+name: Build and Inject IPA
+
+on:
+  workflow_dispatch:
+    inputs:
+      ipa_url:
+        description: 'رابط تحميل ملف الـ IPA الجديد المباشر'
+        required: true
+        default: 'https://example.com/app.ipa'
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install Theos
+        run: |
+          git clone --recursive https://github.com/theos/theos.git $HOME/theos
+
+      - name: Install iOS SDK
+        run: |
+          git clone https://github.com/theos/sdks.git $HOME/theos/sdks
+
+      - name: Install ldid & Azule (For Injection)
+        run: |
+          brew install ldid
+          npm install -g azule
+
+      - name: Build Tweak (.dylib)
+        run: |
+          export THEOS=$HOME/theos
+          export PATH=$THEOS/bin:$PATH
+          make clean
+          make THEOS_PACKAGE_SCHEME=rootless
+
+      - name: Download New IPA & Inject Tweak
+        run: |
+          curl -L "${{ github.event.inputs.ipa_url }}" -o app.ipa
+          DYLIB_PATH=$(find .theos/obj -name "*.dylib" | head -n 1)
+          azule -i app.ipa -o YallaLite_Modified.ipa -f $DYLIB_PATH
+
+      - name: Upload Modified IPA and Dylib
+        uses: actions/upload-artifact@v4
+        with:
+          name: Patched-YallaLite
+          path: |
+            YallaLite_Modified.ipa
+            .theos/obj/**/*.dylib
