@@ -1,0 +1,16 @@
+"MJRefreshHeaderIdleText" = "Yenilemek için aşağı çekin";
+"MJRefreshHeaderPullingText" = "Yenilemek için bırakın";
+"MJRefreshHeaderRefreshingText" = "Yükleniyor...";
+
+"MJRefreshAutoFooterIdleText" = "Daha fazla yüklemek için dokunun veya yukarı çekin";
+"MJRefreshAutoFooterRefreshingText" = "Yükleniyor...";
+"MJRefreshAutoFooterNoMoreDataText" = "Daha fazla veri yok";
+
+"MJRefreshBackFooterIdleText" = "Daha fazla yüklemek için dokunun veya yukarı çekin";
+"MJRefreshBackFooterPullingText" = "Daha yüklemek için serbest bırakın.";
+"MJRefreshBackFooterRefreshingText" = "Yükleniyor...";
+"MJRefreshBackFooterNoMoreDataText" = "Daha fazla veri yok";
+
+"MJRefreshHeaderLastTimeText" = "Son güncelleme:";
+"MJRefreshHeaderDateTodayText" = "Bugün";
+"MJRefreshHeaderNoneLastDateText" = "Kayıt yok";

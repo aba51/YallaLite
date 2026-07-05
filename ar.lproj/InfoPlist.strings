@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>soldier 2</string>
+	<key>CFBundleName</key>
+	<string>soldier 2</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>سيتيح لك ذلك إضافة الموسيقى على هاتفك إلى حسابك في يلا</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>"Yalla Lite" ترغب في الوصول إلى البلوتوث الخاص بك.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>"Yalla Lite" ترغب في الوصول إلى البلوتوث الخاص بك.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>سيتم إستخدام  الكاميرا في إلتقاط الصور كصورة الواجهة أو نشر  اللحظات</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>يحتاج يلا إلى موقعك لمساعدتك في إضافة الموقع إلى منشوراتك وتحميل الموسيقى واختبار الشبكة.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>يحتاج يلا إلى موقعك لمساعدتك في إضافة الموقع إلى منشوراتك وتحميل الموسيقى واختبار الشبكة.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>سيتم استخدام الميكروفون من أجل الدردشة الصوتية.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>سيتم إستخدام  الصور كصورة الواجهة أو نشر اللحظات</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>سيتم إستخدام  الصور كصورة الواجهة أو نشر اللحظات</string>
+</dict>
+</plist>

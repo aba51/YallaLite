@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>soldier 2</string>
+	<key>CFBundleName</key>
+	<string>soldier 2</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>یہ آپ کو آپ کے فون پر اپنے Yalla Lite اکاؤنٹ میں موسیقی شامل کرنے کی اجازت دے گی.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>"Yalla Lite" آپ کے بلوٹوتھ تک رسائ حاصل کرنا چاہتا ہے </string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>"Yalla Lite" آپ کے بلوٹوتھ تک رسائ حاصل کرنا چاہتا ہے </string>
+	<key>NSCameraUsageDescription</key>
+	<string>کیمره پروفائل یا  لمحات کی تصاویر لینے  کے لئے استعمال کیا جائے گا</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>یلا کو آپ کے محل وقوع کی ضرورت ہے تاکہ آپکو مقامات کو پوسٹس میں شامل کرنے ، موسیقی اپ لوڈ کرنے اور نیٹ ورک ٹیسٹ کرنے میں مدد ملے۔</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>یلا کو آپ کے محل وقوع کی ضرورت ہے تاکہ آپکو مقامات کو پوسٹس میں شامل کرنے ، موسیقی اپ لوڈ کرنے اور نیٹ ورک ٹیسٹ کرنے میں مدد ملے۔</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>مائیکروفون وائس چیٹ کرنے کیلئے استعمال کیا جائے گا.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>تصاویر پروفائل پر یا لمحات پوسٹ کرنے کے لئے استعمال کی جایئں گی</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>تصاویر پروفائل پر یا لمحات پوسٹ کرنے کے لئے استعمال کی جایئں گی</string>
+</dict>
+</plist>

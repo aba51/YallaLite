@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>soldier 2</string>
+	<key>CFBundleName</key>
+	<string>soldier 2</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Ini memungkinkan Anda untuk menambahkan musik di ponsel ke akun Yalla Lite Anda.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>"Yalla Lite" ingin mengakses Bluetooth Anda.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>"Yalla Lite" ingin mengakses Bluetooth Anda.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Kamera akan digunakan untuk mengambil foto sebagai profil atau momen posting</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Yalla Lite membutuhkan lokasi Anda untuk membantu Anda menambahkan lokasi di postingan, mengunggah musik dan tes jaringan.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Yalla Lite membutuhkan lokasi Anda untuk membantu Anda menambahkan lokasi di postingan, mengunggah musik dan tes jaringan.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Mic akan digunakan untuk Anda sebagai obrolan suara.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Foto akan digunakan sebagai profil atau momen pengeposan</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Foto akan digunakan sebagai profil atau momen pengeposan</string>
+</dict>
+</plist>

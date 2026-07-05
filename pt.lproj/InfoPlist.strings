@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>soldier 2</string>
+	<key>CFBundleName</key>
+	<string>soldier 2</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Isso peimitirá você adicionar música em seu celular a sua conta de Yalla Lite.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>"Yalla Lite" queria ativar Bluetooth.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>"Yalla Lite" queria ativar Bluetooth.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Câmera será usada quando tirando fotos para perfil ou publicações</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Yalla Lite precisa sua localização para ajudá-lo a adicionar localização aos posts, enviar as músicas e testar a rede.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Yalla Lite precisa sua localização para ajudá-lo a adicionar localização aos posts, enviar as músicas e testar a rede.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>O mic será usado para bater-papo por áudio.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Fotos serão usadas como perfil ou publicações</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Fotos serão usadas como perfil ou publicações</string>
+</dict>
+</plist>

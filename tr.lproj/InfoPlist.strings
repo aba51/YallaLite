@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>soldier 2</string>
+	<key>CFBundleName</key>
+	<string>soldier 2</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Bu sizin telefonunuzdaki müzikleri, Yalla Lite oynatma listenize de ekleyecektir.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>"Yalla Lite" bluetooth'unuza erişmek istiyor.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>"Yalla Lite" bluetooth'unuza erişmek istiyor.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Kamera erişimi kamera kullanımı ve anlar için kullanılacaktır</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Paylaşımlarınıza konum bilginizi eklemek, müzik yüklemek ve internet bağlantınızı kontrol etmek için Yalla Lite'nın konum bilgilerinizi kullanması gerekmektedir.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Paylaşımlarınıza konum bilginizi eklemek, müzik yüklemek ve internet bağlantınızı kontrol etmek için Yalla Lite'nın konum bilgilerinizi kullanması gerekmektedir.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Mikrofon sesli sohbette kullanılacak.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Fotoğraflar profil veya Anlar’da  kullanılacaktır</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Resim erişimi  profil veya anlarda  kullanılacaktır</string>
+</dict>
+</plist>
